@@ -61,14 +61,15 @@ _(Image)_ **ppPhoto:** This specifies the default image to use when a contact do
 
 ### Return Value
 
-The control will return to the function specified in the _onComplete_ parameter passing it a PhoneGap complient contact object. See [http://docs.phonegap.com/en/1.1.0/phonegap_contacts_contacts.md.html#Contact](http://docs.phonegap.com/en/1.1.0/phonegap_contacts_contacts.md.html#Contact) for details.
+The control will return to the function specified in the _onComplete_ parameter passing it a PhoneGap compliant contact object. See [http://docs.phonegap.com/en/1.1.0/phonegap_contacts_contacts.md.html#Contact](http://docs.phonegap.com/en/1.1.0/phonegap_contacts_contacts.md.html#Contact) for details.
 
 ## Limitations
 
 This control will not work for webOS due to the way contacts are handled by the platform.  Instead one should use the built in control. In the future it may make sense for this control to detect the platform and determine whether to use the PhoneGap version or the built in one.
 
 ## To Do
-
+- Re-evaluate name sorting as it times out on large lists 
+- Add Scrolling Ability to Modal List
 - Test on iOS
 - Test on Android
 - Test on Blackberry
