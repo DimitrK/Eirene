@@ -13,10 +13,6 @@ To use the control simply add it as a component to your app and remember to add 
 
 **pgImagePicker**
 
-### Example Setup
-
-	{name: "PhoneGapImagePicker", kind: "pgImagePicker", onImageSelected: "functionWhenImageIsSelected"}
-
 ### Published Parameters
 
 _(function)_ **onImageSelected:** This is the function that the control will return the selected image to passing in the path to the image. _*DEFAULT VALUE:* N/A
@@ -26,6 +22,10 @@ _(Object)_ **cameraOptions:** This parameter is a [PhoneGap cameraOptions](http:
 ### Return Value
 
 The control will return to the function specified in the _onImageSelected__ parameter passing it the path in URI format to the image.
+
+### Example Setup
+
+	{name: "PhoneGapImagePicker", kind: "pgImagePicker", onImageSelected: "functionWhenImageIsSelected"}
 
 ## Limitations
 
