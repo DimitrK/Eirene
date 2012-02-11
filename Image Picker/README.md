@@ -1,7 +1,7 @@
 Image Picker Control
 =====================
 
-This is a control is based on [http://forums.enyojs.com/discussion/56/image-picker-kind-for-phonegap-and-enyo-1-0](Jame Harris' image picker) for [http://www.phonegap.com](PhoneGap). The control will pops up a modal dialog box and allows a user to select an image from their photo library or take one using the camera. 
+This is a control is based on [Jame Harris' image picker](http://forums.enyojs.com/discussion/56/image-picker-kind-for-phonegap-and-enyo-1-0) for [PhoneGap](http://www.phonegap.com). The control will pops up a modal dialog box and allows a user to select an image from their photo library or take one using the camera. 
 
 ## Control Use
 
@@ -21,7 +21,7 @@ To use the control simply add it as a component to your app and remember to add 
 
 _(function)_ **onImageSelected:** This is the function that the control will return the selected image to passing in the path to the image. _*DEFAULT VALUE:* N/A
 
-_(Object)_ **cameraOptions:** This parameter is a [http://docs.phonegap.com/en/1.4.1/phonegap_camera_camera.md.html#cameraOptions](PhoneGap cameraOptions) object and can be used to specify options used by the PhoneGap Camera API. Certain parameters and values may be required by the control so user specified options may be overridden.  Please see console.log for warnings if you suspect issues. _*DEFAULT VALUE:* {quality: 50, destinationType: Camera.DestinationType.FILE\_URI, sourceType: Camera.PictureSourceType.PHOTOLIBRARY}_
+_(Object)_ **cameraOptions:** This parameter is a [PhoneGap cameraOptions](http://docs.phonegap.com/en/1.4.1/phonegap_camera_camera.md.html#cameraOptions) object and can be used to specify options used by the PhoneGap Camera API. Certain parameters and values may be required by the control so user specified options may be overridden.  Please see console.log for warnings if you suspect issues. _*DEFAULT VALUE:* {quality: 50, destinationType: Camera.DestinationType.FILE\_URI, sourceType: Camera.PictureSourceType.PHOTOLIBRARY}_
 
 ### Return Value
 
@@ -38,7 +38,7 @@ None Known.
 
 This software is released under the MIT License.
 
-Copyright (c) 2011 Syntactix LLC, http://www.gosyntactix.com/
+Copyright (c) 2011 Syntactix LLC, [http://www.gosyntactix.com/](http://www.gosyntactix.com)
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
