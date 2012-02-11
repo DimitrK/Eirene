@@ -79,7 +79,7 @@ This control will not work for webOS due to the way contacts are handled by the 
 
 This software is released under the MIT License.
 
-Copyright (c) 2011 Syntactix LLC, http://www.gosyntactix.com/
+Copyright (c) 2011 Syntactix LLC, [http://www.gosyntactix.com/](http://www.gosyntactix.com)
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
